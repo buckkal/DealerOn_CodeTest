@@ -92,7 +92,8 @@ Notes:
                     CEBCEBCEBC
 
 Design Explanation:
-    I decided to go with option 1 first.
+    
+    I decided to go with option 1 first. Since I have a linux machine, I can only use VSCode. I also chose to perform this task with .Net. In order to get a UI page to appear, I downloaded the extension 'open in browser'. I then right-clicked on the html file and select 'open in other browsers' (can do 'open in default broswer') before selecting firefox.
 
     I was very interested in each one, and I haven't fully coded in a long time. So, I decided to do Option 2. 
 
