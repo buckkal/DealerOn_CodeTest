@@ -1,0 +1,15 @@
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/app3
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/app3.deps.json
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/app3.runtimeconfig.json
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/app3.dll
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/ref/app3.dll
+/home/buck/Projects/DealerOn_CodeTest/app3/bin/Debug/net6.0/app3.pdb
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.csproj.AssemblyReference.cache
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.GeneratedMSBuildEditorConfig.editorconfig
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.AssemblyInfoInputs.cache
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.AssemblyInfo.cs
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.csproj.CoreCompileInputs.cache
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.dll
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/ref/app3.dll
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.pdb
+/home/buck/Projects/DealerOn_CodeTest/app3/obj/Debug/net6.0/app3.genruntimeconfig.cache

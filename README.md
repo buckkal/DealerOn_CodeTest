@@ -93,11 +93,19 @@ Notes:
 
 Design Explanation:
     
-    I decided to go with option 1 first. Since I have a linux machine, I can only use VSCode. I was able to download the .Net 6.0 version onto the machine and use 'dotnet run' and 'dotnet build'. This took me a couple hours to figure out because I did try to see if I could add a GUI first before deciding to utilize the terminal first. I made sure to aim for future development within this project. An example of this can be seen in Program.cs where I call the rover project and allow for the sales tax and train to be added later.
+    I decided to go with option 1 first. Since I have a linux machine, I can only use VSCode. 
+    I was able to download the .Net 6.0 version onto the machine and use 'dotnet run' and 
+    'dotnet build'. This took me a couple hours to figure out because I did try to see if I 
+    could add a GUI first before deciding to utilize the terminal first. I made sure to aim 
+    for future development within this project. An example of this can be seen in Program.cs 
+    where I call the rover project and allow for the sales tax and train to be added later.
 
-    I ran into another issue, where when I ran 'dotnet run' on the app folder, this error would appear:
-        System.TypeInitializationException: The type initializer for 'Microsoft.DotNet.Cli.Parser' threw an exception.
-        ---> System.TypeInitializationException: The type initializer for 'Microsoft.DotNet.Cli.AddCommandParser' threw an exception.
+    I ran into another issue, where when I ran 'dotnet run' on the app folder, this error 
+    would appear:
+        System.TypeInitializationException: The type initializer for 'Microsoft.DotNet.Cli.
+        Parser' threw an exception.
+        ---> System.TypeInitializationException: The type initializer for 'Microsoft.DotNet.
+        Cli.AddCommandParser' threw an exception.
         ---> System.IO.FileNotFoundException: Unable to find the specified file.
         at Interop.Sys.GetCwdHelper(Byte* ptr, Int32 bufferSize)
         at Interop.Sys.GetCwd()
@@ -108,11 +116,13 @@ Design Explanation:
         at Microsoft.DotNet.Cli.AddCommandParser.GetCommand()
         at Microsoft.DotNet.Cli.Parser..cctor()
         --- End of inner exception stack trace ---
-        at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, TimeSpan startupTime, ITelemetry telemetryClient)
+        at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, TimeSpan startupTime, 
+        ITelemetry telemetryClient)
         at Microsoft.DotNet.Cli.Program.Main(String[] args)
-    I don't really know what happened, so, I created another folder 'app2' after trying to see if it was an issue with static methods. Once I did this, it worked just fine.
+    I didn't really know what happened, so, I created another folder 'app2' after trying to 
+    see if it was an issue with static methods. Once I did this, it worked just fine. However, I realized where the issue was occuring. It gets screwed over when I create a branch and run a Pull Request. Whether one merges or squashes, it does not help. So, I finally created app3 on the main branch.
 
-    When running the program, please use app2 and run 'dotnet run' in the terminal before selecting the options provided. If you choose to upload a file, I have the input located in DealerOn_CodeTest -> files. So, in order to find that location, you should put in 'C:/DealerOn_CodeTest/files/Input1.txt' or where ever the DealerOn_CodeTest repo has been cloned to.
+    When running the program, please use app3 and run 'dotnet run' in the terminal before selecting the options provided. If you choose to upload a file, I have the input located in DealerOn_CodeTest -> files. So, in order to find that location, you should put in 'home/buck/Projects/DealerOn_CodeTest/app3/files/Input1.txt' or where ever the DealerOn_CodeTest repo has been cloned to.
 
     I was working on this too long because of the issues described above, so, I decided to leave it at using the terminal instead of adding GUI. I also didn't get to unit tests which would take me longer to do since the experience I have had with Unit Tests have been with Angular, EmberJS, and NestJS.
 
