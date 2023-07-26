@@ -120,13 +120,28 @@ Design Explanation:
         ITelemetry telemetryClient)
         at Microsoft.DotNet.Cli.Program.Main(String[] args)
     I didn't really know what happened, so, I created another folder 'app2' after trying to 
-    see if it was an issue with static methods. Once I did this, it worked just fine. However, I realized where the issue was occuring. It gets screwed over when I create a branch and run a Pull Request. Whether one merges or squashes, it does not help. So, I finally created app3 on the main branch.
+    see if it was an issue with static methods. Once I did this, it worked just fine. However, 
+    I realized where the issue was occuring. It gets screwed over when I create a branch and 
+    run a Pull Request. Whether one merges or squashes, it does not help. So, I finally 
+    created app3 on the main branch.
 
-    When running the program, please use app3 and run 'dotnet run' in the terminal before selecting the options provided. If you choose to upload a file, I have the input located in DealerOn_CodeTest -> files. So, in order to find that location, you should put in 'home/buck/Projects/DealerOn_CodeTest/app3/files/Input1.txt' or where ever the DealerOn_CodeTest repo has been cloned to.
+    When running the program, please use app3 and run 'dotnet run' in the terminal before 
+    selecting the options provided. If you choose to upload a file, I have the input located 
+    in DealerOn_CodeTest -> files. So, in order to find that location, you should put in 'home/
+    buck/Projects/DealerOn_CodeTest/app3/files/Input1.txt' or where ever the DealerOn_CodeTest 
+    repo has been cloned to.
 
-    I was working on this too long because of the issues described above, so, I decided to leave it at using the terminal instead of adding GUI. I also didn't get to unit tests which would take me longer to do since the experience I have had with Unit Tests have been with Angular, EmberJS, and NestJS.
+    I was working on this too long because of the issues described above, so, I decided to 
+    leave it at using the terminal instead of adding GUI. I also didn't get to unit tests 
+    which would take me longer to do since the experience I have had with Unit Tests have been 
+    with Angular, EmberJS, and NestJS.
 
-    If I were to work on the GUI, I would have the user input the grid via a couple number dropdowns. Then, I would utilize a panel where one can add and delete sections. In each section, one would be able to put in the position of the rover via dropdowns and the instructions in a string format. Finally, once it would be submitted, it would get saved into a file and utilize the ReadFile that we already have in place or it would utilize the RoverInterface/RoverData to then print out the results.
+    If I were to work on the GUI, I would have the user input the grid via a couple number 
+    dropdowns. Then, I would utilize a panel where one can add and delete sections. In each 
+    section, one would be able to put in the position of the rover via dropdowns and the 
+    instructions in a string format. Finally, once it would be submitted, it would get saved 
+    into a file and utilize the ReadFile that we already have in place or it would utilize the 
+    RoverInterface/RoverData to then print out the results.
 
 
 Submission:
