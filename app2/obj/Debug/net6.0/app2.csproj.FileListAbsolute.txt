@@ -1,0 +1,15 @@
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/app2
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/app2.deps.json
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/app2.runtimeconfig.json
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/app2.dll
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/ref/app2.dll
+/home/buck/Projects/DealerOn_CodeTest/app2/bin/Debug/net6.0/app2.pdb
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.csproj.AssemblyReference.cache
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.GeneratedMSBuildEditorConfig.editorconfig
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.AssemblyInfoInputs.cache
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.AssemblyInfo.cs
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.csproj.CoreCompileInputs.cache
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.dll
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/ref/app2.dll
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.pdb
+/home/buck/Projects/DealerOn_CodeTest/app2/obj/Debug/net6.0/app2.genruntimeconfig.cache
